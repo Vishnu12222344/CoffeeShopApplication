@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Coffee Shop Design System - Warm amber/brown theme */
+
+@layer base {
+  :root {
+    --background: 40 33% 98%;
+    --foreground: 24 10% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 24 10% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 24 10% 10%;
+
+    --primary: 24 70% 45%;
+    --primary-foreground: 40 33% 98%;
+
+    --secondary: 40 30% 92%;
+    --secondary-foreground: 24 10% 10%;
+
+    --muted: 40 20% 94%;
+    --muted-foreground: 24 10% 45%;
+
+    --accent: 35 80% 95%;
+    --accent-foreground: 24 70% 35%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 30 20% 88%;
+    --input: 30 20% 88%;
+    --ring: 24 70% 45%;
+
+    --radius: 0.75rem;
+
+    /* Custom tokens for coffee theme */
+    --coffee-amber: 35 90% 50%;
+    --coffee-orange: 24 95% 55%;
+    --coffee-brown: 24 40% 30%;
+
+    --sidebar-background: 40 20% 96%;
+    --sidebar-foreground: 24 10% 30%;
+    --sidebar-primary: 24 70% 45%;
+    --sidebar-primary-foreground: 40 33% 98%;
+    --sidebar-accent: 35 50% 92%;
+    --sidebar-accent-foreground: 24 10% 10%;
+    --sidebar-border: 30 20% 88%;
+    --sidebar-ring: 24 70% 45%;
+  }
+
+  .dark {
+    --background: 24 15% 8%;
+    --foreground: 40 20% 95%;
+
+    --card: 24 15% 10%;
+    --card-foreground: 40 20% 95%;
+
+    --popover: 24 15% 10%;
+    --popover-foreground: 40 20% 95%;
+
+    --primary: 35 85% 55%;
+    --primary-foreground: 24 15% 8%;
+
+    --secondary: 24 15% 18%;
+    --secondary-foreground: 40 20% 95%;
+
+    --muted: 24 15% 18%;
+    --muted-foreground: 40 15% 60%;
+
+    --accent: 24 30% 20%;
+    --accent-foreground: 35 85% 60%;
+
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 24 15% 20%;
+    --input: 24 15% 20%;
+    --ring: 35 85% 55%;
+
+    /* Custom tokens for coffee theme - dark mode */
+    --coffee-amber: 35 80% 55%;
+    --coffee-orange: 24 90% 60%;
+    --coffee-brown: 24 30% 60%;
+
+    --sidebar-background: 24 15% 6%;
+    --sidebar-foreground: 40 20% 90%;
+    --sidebar-primary: 35 85% 55%;
+    --sidebar-primary-foreground: 24 15% 8%;
+    --sidebar-accent: 24 20% 15%;
+    --sidebar-accent-foreground: 40 20% 95%;
+    --sidebar-border: 24 15% 18%;
+    --sidebar-ring: 35 85% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+/* Custom scrollbar */
+@layer utilities {
+  .scrollbar-thin {
+    scrollbar-width: thin;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: hsl(var(--muted));
+    border-radius: 3px;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background: hsl(var(--muted-foreground) / 0.3);
+    border-radius: 3px;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--muted-foreground) / 0.5);
+  }
+}
