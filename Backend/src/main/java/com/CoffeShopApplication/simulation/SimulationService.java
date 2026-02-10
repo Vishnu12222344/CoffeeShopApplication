@@ -59,50 +59,116 @@ public class SimulationService {
         int abandonedCount = 0;
         int slaViolations = 0;
         double revenue = 0;
+        int processedCount = 0;
 
         if (useSmart) {
-            orders.sort(Comparator.comparingInt(SimOrder::getPrepTime));
+            // SMART Strategy: Shortest Job First from waiting queue
+            PriorityQueue<SimOrder> waitingQueue = new PriorityQueue<>(
+                    Comparator.comparingInt(SimOrder::getPrepTime)
+            );
+
+            int orderIndex = 0;
+
+            // Process all orders
+            while (orderIndex < orders.size() || !waitingQueue.isEmpty()) {
+
+                // Find the barista that will be available soonest
+                SimBarista nextBarista = baristas.stream()
+                        .min(Comparator.comparingDouble(SimBarista::getAvailableAt))
+                        .orElseThrow();
+
+                double baristaAvailableTime = nextBarista.getAvailableAt();
+
+                // Add all orders that arrived before this barista becomes available
+                while (orderIndex < orders.size() &&
+                        orders.get(orderIndex).getArrivalTime() <= baristaAvailableTime) {
+                    waitingQueue.add(orders.get(orderIndex));
+                    orderIndex++;
+                }
+
+                // If queue is empty, wait for next customer arrival
+                if (waitingQueue.isEmpty()) {
+                    if (orderIndex < orders.size()) {
+                        // Fast-forward to next arrival
+                        SimOrder nextArrival = orders.get(orderIndex);
+                        waitingQueue.add(nextArrival);
+                        orderIndex++;
+                    } else {
+                        break;
+                    }
+                }
+
+                // Pick the shortest job from waiting queue
+                SimOrder nextOrder = waitingQueue.poll();
+
+                // Start time is when barista is available OR when customer arrived, whichever is later
+                nextOrder.setStartTime(Math.max(nextOrder.getArrivalTime(), nextBarista.getAvailableAt()));
+
+                double waitTime = nextOrder.getStartTime() - nextOrder.getArrivalTime();
+
+                // Check abandonment (new customers only, wait > 8 min)
+                if (!nextOrder.isRegularCustomer() && waitTime > 8) {
+                    abandonedCount++;
+                    continue;
+                }
+
+                // Check SLA violation (wait > 10 min)
+                if (waitTime > 10) {
+                    slaViolations++;
+                }
+
+                // Complete the order
+                nextOrder.setCompletionTime(nextOrder.getStartTime() + nextOrder.getPrepTime());
+                nextBarista.setAvailableAt(nextOrder.getCompletionTime());
+                nextBarista.setTotalWorkTime(nextBarista.getTotalWorkTime() + nextOrder.getPrepTime());
+
+                totalWait += waitTime;
+                revenue += nextOrder.getPrice();
+                processedCount++;
+            }
+
         } else {
-            Queue<SimOrder> fifoQueue = new LinkedList<>(orders);
-            orders = new ArrayList<>(fifoQueue);
+            // FIFO: Process in arrival order
+            for (SimOrder order : orders) {
+
+                SimBarista bestBarista = baristas.stream()
+                        .min(Comparator.comparingDouble(SimBarista::getAvailableAt))
+                        .orElseThrow();
+
+                order.setStartTime(
+                        Math.max(order.getArrivalTime(), bestBarista.getAvailableAt())
+                );
+
+                double waitTime = order.getStartTime() - order.getArrivalTime();
+
+                if (!order.isRegularCustomer() && waitTime > 8) {
+                    abandonedCount++;
+                    continue;
+                }
+
+                if (waitTime > 10) {
+                    slaViolations++;
+                }
+
+                order.setCompletionTime(order.getStartTime() + order.getPrepTime());
+
+                bestBarista.setAvailableAt(order.getCompletionTime());
+                bestBarista.setTotalWorkTime(
+                        bestBarista.getTotalWorkTime() + order.getPrepTime()
+                );
+
+                totalWait += waitTime;
+                revenue += order.getPrice();
+                processedCount++;
+            }
         }
 
-        for (SimOrder order : orders) {
-
-            SimBarista bestBarista = baristas.stream()
-                    .min(Comparator.comparingDouble(SimBarista::getAvailableAt))
-                    .orElseThrow();
-
-            order.setStartTime(
-                    Math.max(order.getArrivalTime(), bestBarista.getAvailableAt())
-            );
-
-            double waitTime = order.getStartTime() - order.getArrivalTime();
-
-            if (!order.isRegularCustomer() && waitTime > 8) {
-                abandonedCount++;
-                continue;
-            }
-
-            if (waitTime > 10) {
-                slaViolations++;
-            }
-
-            order.setCompletionTime(order.getStartTime() + order.getPrepTime());
-
-            bestBarista.setAvailableAt(order.getCompletionTime());
-            bestBarista.setTotalWorkTime(
-                    bestBarista.getTotalWorkTime() + order.getPrepTime()
-            );
-
-            totalWait += waitTime;
-            revenue += order.getPrice();
-        }
-
-        double avgWait = totalWait / customerCount;
+        double avgWait = processedCount > 0 ? totalWait / processedCount : 0;
         double abandonRate = (abandonedCount * 100.0) / customerCount;
-        double slaCompliance = 100 - ((slaViolations * 100.0) / customerCount);
+        double slaCompliance = 100 - ((slaViolations * 100.0) / processedCount);
         double variance = calculateVariance(baristas);
+
+        String strategy = useSmart ? "SMART" : "FIFO";
 
         return new SimulationResult(
                 testNumber,
@@ -111,7 +177,8 @@ public class SimulationService {
                 slaCompliance,
                 variance,
                 revenue,
-                useSmart ? "SMART" : "FIFO"
+                strategy,
+                orders
         );
     }
 

@@ -4,52 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dc81685-684a-404a-a75a-f25803d61376" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/CoffeShopApplication/CoffeShopApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/CoffeShopApplication/Config/DataInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/CoffeShopApplication/Config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/CoffeShopApplication/Controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/CoffeShopApplication/Controller/MetricsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/CoffeShopApplication/Controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/CoffeShopApplication/Repository/BaristaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/CoffeShopApplication/Repository/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/CoffeShopApplication/Repository/RoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/CoffeShopApplication/Repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/CoffeShopApplication/Security/CustomUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/CoffeShopApplication/Security/JwtFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/CoffeShopApplication/Security/JwtService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/CoffeShopApplication/Service/MetricsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/CoffeShopApplication/Service/OrderScheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/CoffeShopApplication/Service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/CoffeShopApplication/Service/PriorityCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/CoffeShopApplication/dto/AuthRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/CoffeShopApplication/dto/AuthResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/CoffeShopApplication/dto/MetricsResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/CoffeShopApplication/dto/OrderRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/CoffeShopApplication/model/Barista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/CoffeShopApplication/model/DrinkType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/CoffeShopApplication/model/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/CoffeShopApplication/model/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/CoffeShopApplication/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/CoffeShopApplication/simulation/SimBarista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/CoffeShopApplication/simulation/SimOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/CoffeShopApplication/simulation/SimulationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/CoffeShopApplication/simulation/SimulationResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/CoffeShopApplication/simulation/SimulationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/CoffeShopApplication/simulation/SimulationSummary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/test/java/com/CoffeShopApplication/CoffeShopApplicationTests.java" afterDir="false" />
+    <list default="true" id="2dc81685-684a-404a-a75a-f25803d61376" name="Changes" comment="Created Docker images.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/com/CoffeShopApplication/simulation/SimulationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/CoffeShopApplication/simulation/SimulationService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +19,7 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
@@ -74,12 +32,12 @@
     &quot;assignee&quot;: &quot;Vishnu12222344&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Vishnu12222344/CoffeeShopApplication.git",
-    "accountId": "97486e5c-9fe8-4396-b5a4-c0163cd07758"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Vishnu12222344/CoffeeShopApplication.git&quot;,
+    &quot;accountId&quot;: &quot;97486e5c-9fe8-4396-b5a4-c0163cd07758&quot;
   }
-}]]></component>
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -106,13 +64,16 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.CoffeShopApplication.executor": "Run",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/HP/Desktop/Hackathon/CoffeShopApplication",
+    "last_opened_file_path": "D:/spring projects/Hackathon/CoffeShopApplication",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -128,6 +89,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\Desktop\Hackathon\CoffeShopApplication\Backend" />
       <recent name="C:\Users\HP\Desktop\Hackathon\CoffeShopApplication\Frontend\src\components" />
     </key>
   </component>
@@ -172,7 +134,9 @@
       <option name="presentableId" value="Default" />
       <updated>1770437941830</updated>
       <workItem from="1770437942922" duration="11911000" />
-      <workItem from="1770450148638" duration="613000" />
+      <workItem from="1770450148638" duration="9320000" />
+      <workItem from="1770463741346" duration="820000" />
+      <workItem from="1774620043511" duration="1024000" />
     </task>
     <servers />
   </component>

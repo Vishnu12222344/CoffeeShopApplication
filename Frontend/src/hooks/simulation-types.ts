@@ -1,4 +1,14 @@
 // Simulation API Types
+
+export interface SimOrder {
+    arrivalTime: number;
+    startTime: number;
+    completionTime: number;
+    prepTime: number;
+    price: number;
+    regularCustomer: boolean;
+}
+
 export interface SimulationResult {
     testCaseNumber: number;
     averageWaitTime: number;
@@ -7,6 +17,7 @@ export interface SimulationResult {
     workloadVariance: number;
     totalRevenue: number;
     strategy: 'SMART' | 'FIFO';
+    orders: SimOrder[];  // NEW: List of all orders in this test case
 }
 
 export interface SimulationSummary {
