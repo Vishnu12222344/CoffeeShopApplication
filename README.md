@@ -1282,7 +1282,7 @@ Distributed under the MIT License. See `LICENSE` file for more information.
 ```
 MIT License
 
-Copyright (c) 2024 [Your Name]
+Copyright (c) 2026 [Pratapani Vishnu]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -1307,7 +1307,7 @@ SOFTWARE.
 
 ## 📞 Contact
 
-**Your Name** - [Pratapani Vishnu]
+**Your Name** - Pratapani Vishnu
 
 - 📧 Email: pratapanivishnu@gmail.com
 - 💼 LinkedIn: [linkedin.com/in/yourprofile][(https://www.linkedin.com/in/pratapanivishnu/)]
@@ -1319,7 +1319,7 @@ SOFTWARE.
 
 Special thanks to:
 
-- **[Vishal Rathee]** - Project supervisor and mentor
+- **Vishal Rathee** - Project supervisor and mentor
 - **Spring Boot Team** - For excellent documentation
 - **React Team** - For the amazing framework
 - **Shadcn** - For beautiful UI components
@@ -1361,9 +1361,6 @@ Special thanks to:
 
 ### Made with ☕ and 💻
 
-**[Pratapani Vishnu]** © 2026
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/coffee-shop-system?style=social)](https://github.com/yourusername/coffee-shop-system/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/coffee-shop-system?style=social)](https://github.com/yourusername/coffee-shop-system/network/members)
-[![GitHub watchers](https://img.shields.io/github/watchers/yourusername/coffee-shop-system?style=social)](https://github.com/yourusername/coffee-shop-system/watchers)
+**Pratapani Vishnu** © 2026
 
 </div>
