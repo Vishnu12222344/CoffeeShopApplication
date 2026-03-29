@@ -2,8 +2,6 @@
 
 <div align="center">
 
-![Coffee Shop Banner](https://via.placeholder.com/800x200/8B4513/FFFFFF?text=Coffee+Shop+Order+Management+System)
-
 **An intelligent queue management system that optimizes customer wait times using priority-based scheduling**
 
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2.0-brightgreen.svg)](https://spring.io/projects/spring-boot)
@@ -11,8 +9,6 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.3.0-blue.svg)](https://www.typescriptlang.org/)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0-orange.svg)](https://www.mysql.com/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
-[Live Demo](#) · [Report Bug](https://github.com/yourusername/coffee-shop-system/issues) · [Request Feature](https://github.com/yourusername/coffee-shop-system/issues)
 
 </div>
 
@@ -25,7 +21,6 @@
   - [The Solution](#the-solution)
   - [Built With](#built-with)
 - [Features](#features)
-- [Screenshots](#screenshots)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
@@ -111,31 +106,6 @@ Our system uses an **intelligent priority-based scheduling algorithm** that cons
 - CORS protection
 - SQL injection prevention (via JPA)
 - XSS protection
-
----
-
-## 📸 Screenshots
-
-<details>
-<summary>Click to view screenshots</summary>
-
-### Login / Register Page
-![Login](docs/screenshots/login.png)
-*Secure authentication with tabs for login and registration*
-
-### Dashboard
-![Dashboard](docs/screenshots/dashboard.png)
-*Real-time metrics showing system performance*
-
-### Orders Queue
-![Orders](docs/screenshots/orders.png)
-*Live order tracking with priority scores and status badges*
-
-### Create Order Form
-![Create Order](docs/screenshots/create-order.png)
-*Simple form to add new orders with drink selection*
-
-</details>
 
 ---
 
@@ -591,12 +561,6 @@ coffee-shop-system/
 │   ├── vite.config.ts                            # Vite config
 │   ├── tailwind.config.js                        # Tailwind config
 │   └── .env                                      # Environment variables
-│
-├── docs/                             # Documentation
-│   ├── screenshots/                              # App screenshots
-│   ├── IEEE_Report.pdf                           # Project report
-│   └── API_Documentation.md                      # API reference
-│
 ├── .gitignore
 ├── README.md                         # This file!
 └── LICENSE
@@ -1343,14 +1307,11 @@ SOFTWARE.
 
 ## 📞 Contact
 
-**Your Name** - [Your Name]
+**Your Name** - [Pratapani Vishnu]
 
-- 📧 Email: your.email@example.com
-- 💼 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-- 🐙 GitHub: [@yourusername](https://github.com/yourusername)
-- 🌐 Portfolio: [yourportfolio.com](https://yourportfolio.com)
-
-**Project Link:** [https://github.com/yourusername/coffee-shop-system](https://github.com/yourusername/coffee-shop-system)
+- 📧 Email: pratapanivishnu@gmail.com
+- 💼 LinkedIn: [linkedin.com/in/yourprofile][(https://www.linkedin.com/in/pratapanivishnu/)]
+- 🐙 GitHub: [@yourusername](https://github.com/Vishnu12222344)
 
 ---
 
@@ -1358,7 +1319,7 @@ SOFTWARE.
 
 Special thanks to:
 
-- **[Faculty Name]** - Project supervisor and mentor
+- **[Vishal Rathee]** - Project supervisor and mentor
 - **Spring Boot Team** - For excellent documentation
 - **React Team** - For the amazing framework
 - **Shadcn** - For beautiful UI components
@@ -1394,26 +1355,13 @@ Special thanks to:
 
 ---
 
-## 🎓 Academic Context
-
-This project was developed as part of:
-- **Course:** CSE 435 - Software Engineering
-- **Institution:** Lovely Professional University
-- **Semester:** Jan-Apr 2026
-- **Supervisor:** [Faculty Name]
-
-**Report:** See [docs/IEEE_Report.pdf](docs/IEEE_Report.pdf) for detailed technical documentation.
-
----
-
 <div align="center">
 
 ### ⭐ If this project helped you, please give it a star!
 
 ### Made with ☕ and 💻
 
-**[Your Name]** © 2024
-
+**[Pratapani Vishnu]** © 2026
 [![GitHub stars](https://img.shields.io/github/stars/yourusername/coffee-shop-system?style=social)](https://github.com/yourusername/coffee-shop-system/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/yourusername/coffee-shop-system?style=social)](https://github.com/yourusername/coffee-shop-system/network/members)
 [![GitHub watchers](https://img.shields.io/github/watchers/yourusername/coffee-shop-system?style=social)](https://github.com/yourusername/coffee-shop-system/watchers)
