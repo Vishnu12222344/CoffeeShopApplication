@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dc81685-684a-404a-a75a-f25803d61376" name="Changes" comment="Created Docker images.">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="2dc81685-684a-404a-a75a-f25803d61376" name="Changes" comment="added security">
+      <change beforePath="$PROJECT_DIR$/Backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,12 +31,12 @@
     &quot;assignee&quot;: &quot;Vishnu12222344&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Vishnu12222344/CoffeeShopApplication.git&quot;,
-    &quot;accountId&quot;: &quot;97486e5c-9fe8-4396-b5a4-c0163cd07758&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Vishnu12222344/CoffeeShopApplication.git",
+    "accountId": "71d92139-156d-4c45-a523-67042bd2b368"
   }
-}</component>
+}]]></component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -50,61 +46,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.446215660059807" />
-      <entry key="MS500" value="3.1457589797772236" />
-      <entry key="S2" value="6.390643063922275" />
-      <entry key="S5" value="10.024312444005025" />
-      <entry key="S10" value="12.432437069222802" />
-      <entry key="S30" value="16.04224608012605" />
-      <entry key="S60" value="23.364327276003667" />
-      <entry key="M2" value="35.34817610160012" />
-      <entry key="M5" value="51.34845127538879" />
-      <entry key="M10" value="61.290520446841285" />
-      <entry key="M15" value="65.81851044004456" />
-      <entry key="M30" value="71.28419455063002" />
-      <entry key="H1" value="74.46216689171827" />
-      <entry key="H2" value="76.18271200538642" />
-      <entry key="H4" value="77.07880921706149" />
-      <entry key="D1" value="77.84468556508591" />
-      <entry key="W1" value="77.9777680347537" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="1.8682211471381654E-70" />
+      <entry key="S2" value="5.891178960727767E-18" />
+      <entry key="S5" value="1.934618838256946E-7" />
+      <entry key="S10" value="6.293671636277067E-4" />
+      <entry key="S30" value="0.2730708544688133" />
+      <entry key="S60" value="2.684534144044313" />
+      <entry key="M2" value="11.77812793831698" />
+      <entry key="M5" value="33.43383456075862" />
+      <entry key="M10" value="50.06123312413769" />
+      <entry key="M15" value="57.992925480434124" />
+      <entry key="M30" value="67.76144545268276" />
+      <entry key="H1" value="73.52287571847972" />
+      <entry key="H2" value="76.66481624348954" />
+      <entry key="H4" value="78.30728401314236" />
+      <entry key="D1" value="79.71430529285747" />
+      <entry key="W1" value="79.95909776399725" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="0.0" />
-      <entry key="M5" value="0.0" />
-      <entry key="M10" value="0.0" />
-      <entry key="M15" value="0.0" />
-      <entry key="M30" value="0.0" />
-      <entry key="H1" value="0.0" />
-      <entry key="H2" value="0.0" />
-      <entry key="H4" value="0.0" />
-      <entry key="D1" value="0.0" />
-      <entry key="W1" value="0.0" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0" />
+      <entry key="S60" value="1.0" />
+      <entry key="M2" value="1.0" />
+      <entry key="M5" value="1.0" />
+      <entry key="M10" value="1.0" />
+      <entry key="M15" value="1.0" />
+      <entry key="M30" value="1.0" />
+      <entry key="H1" value="1.0" />
+      <entry key="H2" value="1.0" />
+      <entry key="H4" value="1.0" />
+      <entry key="D1" value="1.0" />
+      <entry key="W1" value="1.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.3737957576999704" />
-      <entry key="MS500" value="3.0516310747773217" />
-      <entry key="S2" value="6.336572201550544" />
-      <entry key="S5" value="9.993736302703153" />
-      <entry key="S10" value="12.414407004752814" />
-      <entry key="S30" value="16.034362659622218" />
-      <entry key="S60" value="23.357883218422938" />
-      <entry key="M2" value="35.34251511634592" />
-      <entry key="M5" value="51.34181529816683" />
-      <entry key="M10" value="61.283775516421606" />
-      <entry key="M15" value="65.812600801937" />
-      <entry key="M30" value="71.28025481373326" />
-      <entry key="H1" value="74.45988174275773" />
-      <entry key="H2" value="76.18148012453956" />
-      <entry key="H4" value="77.07816950370348" />
-      <entry key="D1" value="77.84457551479093" />
-      <entry key="W1" value="77.9777522275106" />
+      <entry key="MS100" value="2.4110147456768107E-5" />
+      <entry key="MS500" value="0.11924494381844473" />
+      <entry key="S2" value="0.5876381642098853" />
+      <entry key="S5" value="0.8084331269034545" />
+      <entry key="S10" value="0.8997580214741074" />
+      <entry key="S30" value="1.2381576364446831" />
+      <entry key="S60" value="3.6663268826016275" />
+      <entry key="M2" value="12.767539312292316" />
+      <entry key="M5" value="34.42614673570782" />
+      <entry key="M10" value="51.054130614158844" />
+      <entry key="M15" value="58.98669134347386" />
+      <entry key="M30" value="68.75721003320783" />
+      <entry key="H1" value="74.52038127275748" />
+      <entry key="H2" value="77.66345945048012" />
+      <entry key="H4" value="79.30657605550047" />
+      <entry key="D1" value="80.71418299751991" />
+      <entry key="W1" value="80.9590801852158" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -210,11 +206,33 @@
       <workItem from="1781704826460" duration="5000" />
       <workItem from="1782045720296" duration="46000" />
       <workItem from="1782642410600" duration="1308000" />
-      <workItem from="1782740738113" duration="950000" />
+      <workItem from="1782740738113" duration="1111000" />
     </task>
+    <task id="LOCAL-00001" summary="Created Docker images.">
+      <option name="closed" value="true" />
+      <created>1782741712149</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1782741712149</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added security">
+      <option name="closed" value="true" />
+      <created>1782741766079</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1782741766079</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created Docker images." />
+    <MESSAGE value="added security" />
+    <option name="LAST_COMMIT_MESSAGE" value="added security" />
   </component>
 </project>
