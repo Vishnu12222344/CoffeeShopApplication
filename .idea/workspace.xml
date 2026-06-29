@@ -4,23 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="628c0801-06c7-4fef-b7c3-cc896bc66af6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Backend/Dockerfile (1)" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CoffeShopApplication.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="628c0801-06c7-4fef-b7c3-cc896bc66af6" name="Changes" comment="Deployment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,61 +37,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="0.0" />
-      <entry key="M5" value="0.0" />
-      <entry key="M10" value="0.0" />
-      <entry key="M15" value="0.0" />
-      <entry key="M30" value="0.0" />
-      <entry key="H1" value="0.0" />
-      <entry key="H2" value="0.0" />
-      <entry key="H4" value="0.0" />
-      <entry key="D1" value="0.0" />
-      <entry key="W1" value="0.0" />
+      <entry key="MS100" value="1.0017360208616535" />
+      <entry key="MS500" value="1.2804858701326212" />
+      <entry key="S2" value="1.7277425144528946" />
+      <entry key="S5" value="1.880640861271245" />
+      <entry key="S10" value="1.9452590897479864" />
+      <entry key="S30" value="2.3737359484803093" />
+      <entry key="S60" value="3.077556921953924" />
+      <entry key="M2" value="3.8014214334603333" />
+      <entry key="M5" value="4.447092970435477" />
+      <entry key="M10" value="4.709590392394251" />
+      <entry key="M15" value="4.803151270426846" />
+      <entry key="M30" value="4.899917722890394" />
+      <entry key="H1" value="4.94953734608947" />
+      <entry key="H2" value="4.974662401475628" />
+      <entry key="H4" value="4.987304520426941" />
+      <entry key="D1" value="4.997880371558679" />
+      <entry key="W1" value="4.999697104827786" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0" />
-      <entry key="S30" value="1.0" />
-      <entry key="S60" value="1.0" />
-      <entry key="M2" value="1.0" />
-      <entry key="M5" value="1.0" />
-      <entry key="M10" value="1.0" />
-      <entry key="M15" value="1.0" />
-      <entry key="M30" value="1.0" />
-      <entry key="H1" value="1.0" />
-      <entry key="H2" value="1.0" />
-      <entry key="H4" value="1.0" />
-      <entry key="D1" value="1.0" />
-      <entry key="W1" value="1.0" />
+      <entry key="MS100" value="1.1561884583412973E-259" />
+      <entry key="MS500" value="1.6315700551601848E-52" />
+      <entry key="S2" value="1.1301899249861606E-13" />
+      <entry key="S5" value="6.626139465791425E-6" />
+      <entry key="S10" value="0.0025741288751326002" />
+      <entry key="S30" value="0.13704929982049047" />
+      <entry key="S60" value="0.37033811283768275" />
+      <entry key="M2" value="0.6201226085527682" />
+      <entry key="M5" value="0.9884116948189172" />
+      <entry key="M10" value="1.3160770369689945" />
+      <entry key="M15" value="1.488394954975675" />
+      <entry key="M30" value="1.7107193654942927" />
+      <entry key="H1" value="1.8457232942169195" />
+      <entry key="H2" value="1.920272920935815" />
+      <entry key="H4" value="1.9594653434211495" />
+      <entry key="D1" value="1.9931489086913978" />
+      <entry key="W1" value="1.9990189104722562" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="2.8871388144702026E-5" />
-      <entry key="MS500" value="0.12362136454761642" />
-      <entry key="S2" value="0.5929572497054739" />
-      <entry key="S5" value="0.8113520789569888" />
-      <entry key="S10" value="0.9007508417742327" />
-      <entry key="S30" value="0.9657578024799022" />
-      <entry key="S60" value="0.9827297708321969" />
-      <entry key="M2" value="0.9913272773570779" />
-      <entry key="M5" value="0.9965218430228103" />
-      <entry key="M10" value="0.9982594066788504" />
-      <entry key="M15" value="0.99883926756243" />
-      <entry key="M30" value="0.9994194652709292" />
-      <entry key="H1" value="0.9997096904956604" />
-      <entry key="H2" value="0.9998548347113497" />
-      <entry key="H4" value="0.9999274147213635" />
-      <entry key="D1" value="0.9999879020876677" />
-      <entry key="W1" value="0.9999982717178488" />
+      <entry key="MS100" value="0.915462481322034" />
+      <entry key="MS500" value="1.259147682229623" />
+      <entry key="S2" value="1.720980781587976" />
+      <entry key="S5" value="1.8777478514264407" />
+      <entry key="S10" value="1.9461345117331401" />
+      <entry key="S30" value="2.50636029394412" />
+      <entry key="S60" value="3.4422933992864118" />
+      <entry key="M2" value="4.416901665747986" />
+      <entry key="M5" value="5.432481534933218" />
+      <entry key="M10" value="6.02360845942441" />
+      <entry key="M15" value="6.2899789196534535" />
+      <entry key="M30" value="6.609727115439043" />
+      <entry key="H1" value="6.794767157186744" />
+      <entry key="H2" value="6.894677933889064" />
+      <entry key="H4" value="6.946638368665499" />
+      <entry key="D1" value="6.991006962990357" />
+      <entry key="W1" value="6.998712817124607" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -125,6 +111,7 @@
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "Spring Boot.CoffeShopApplication.executor": "Run",
@@ -143,6 +130,15 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\prata\OneDrive\Desktop\CoffeeShopApplication" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\prata\OneDrive\Desktop\CoffeeShopApplication\Backend" />
+      <recent name="C:\Users\prata\OneDrive\Desktop\CoffeeShopApplication\Frontend" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="CoffeShopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="CoffeShopApplication" />
@@ -167,11 +163,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1782751836847</updated>
-      <workItem from="1782751839005" duration="859000" />
+      <workItem from="1782751839005" duration="2013000" />
     </task>
+    <task id="LOCAL-00001" summary="Deployment">
+      <option name="closed" value="true" />
+      <created>1782752848150</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1782752848150</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Deployment">
+      <option name="closed" value="true" />
+      <created>1782752943340</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1782752943340</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Deployment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deployment" />
   </component>
 </project>
