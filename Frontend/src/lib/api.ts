@@ -8,7 +8,9 @@ import type {
 import type { SimulationSummary } from '@/types/simulation';
 
 // Configure your backend URL here
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8080/api';
+// @ts-ignore
+const API_BASE_URL =
+    import.meta.env.VITE_API_URL || 'http://localhost:8080/api';
 
 class ApiClient {
   private token: string | null = null;
