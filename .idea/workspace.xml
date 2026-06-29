@@ -4,37 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dc81685-684a-404a-a75a-f25803d61376" name="Changes" comment="added security">
-      <change beforePath="$PROJECT_DIR$/Backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/.gitignore" afterDir="false" />
+    <list default="true" id="628c0801-06c7-4fef-b7c3-cc896bc66af6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Backend/Dockerfile (1)" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CoffeShopApplication.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Enum" />
-        <option value="Interface" />
-        <option value="Class" />
-        <option value="Dockerfile" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;Vishnu12222344&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Vishnu12222344"
   }
-}</component>
+}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/Vishnu12222344/CoffeeShopApplication.git",
-    "accountId": "71d92139-156d-4c45-a523-67042bd2b368"
+    "accountId": "53950f10-cb33-4ccc-a756-9a656b7077a1"
   }
 }]]></component>
   <component name="MavenImportPreferences">
@@ -47,22 +52,22 @@
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="1.8682211471381654E-70" />
-      <entry key="S2" value="5.891178960727767E-18" />
-      <entry key="S5" value="1.934618838256946E-7" />
-      <entry key="S10" value="6.293671636277067E-4" />
-      <entry key="S30" value="0.2730708544688133" />
-      <entry key="S60" value="2.684534144044313" />
-      <entry key="M2" value="11.77812793831698" />
-      <entry key="M5" value="33.43383456075862" />
-      <entry key="M10" value="50.06123312413769" />
-      <entry key="M15" value="57.992925480434124" />
-      <entry key="M30" value="67.76144545268276" />
-      <entry key="H1" value="73.52287571847972" />
-      <entry key="H2" value="76.66481624348954" />
-      <entry key="H4" value="78.30728401314236" />
-      <entry key="D1" value="79.71430529285747" />
-      <entry key="W1" value="79.95909776399725" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="1.0" />
@@ -84,52 +89,48 @@
       <entry key="W1" value="1.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="2.4110147456768107E-5" />
-      <entry key="MS500" value="0.11924494381844473" />
-      <entry key="S2" value="0.5876381642098853" />
-      <entry key="S5" value="0.8084331269034545" />
-      <entry key="S10" value="0.8997580214741074" />
-      <entry key="S30" value="1.2381576364446831" />
-      <entry key="S60" value="3.6663268826016275" />
-      <entry key="M2" value="12.767539312292316" />
-      <entry key="M5" value="34.42614673570782" />
-      <entry key="M10" value="51.054130614158844" />
-      <entry key="M15" value="58.98669134347386" />
-      <entry key="M30" value="68.75721003320783" />
-      <entry key="H1" value="74.52038127275748" />
-      <entry key="H2" value="77.66345945048012" />
-      <entry key="H4" value="79.30657605550047" />
-      <entry key="D1" value="80.71418299751991" />
-      <entry key="W1" value="80.9590801852158" />
+      <entry key="MS100" value="2.8871388144702026E-5" />
+      <entry key="MS500" value="0.12362136454761642" />
+      <entry key="S2" value="0.5929572497054739" />
+      <entry key="S5" value="0.8113520789569888" />
+      <entry key="S10" value="0.9007508417742327" />
+      <entry key="S30" value="0.9657578024799022" />
+      <entry key="S60" value="0.9827297708321969" />
+      <entry key="M2" value="0.9913272773570779" />
+      <entry key="M5" value="0.9965218430228103" />
+      <entry key="M10" value="0.9982594066788504" />
+      <entry key="M15" value="0.99883926756243" />
+      <entry key="M30" value="0.9994194652709292" />
+      <entry key="H1" value="0.9997096904956604" />
+      <entry key="H2" value="0.9998548347113497" />
+      <entry key="H4" value="0.9999274147213635" />
+      <entry key="D1" value="0.9999879020876677" />
+      <entry key="W1" value="0.9999982717178488" />
     </decayedShown>
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 8
-}</component>
-  <component name="ProjectId" id="39KHf1lyVwHhzQgi2RhlcAcOjts" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="3Foqao3Doi6MIv133IXTv30WdC9" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Maven.CoffeShopApplication [clean].executor": "Run",
-    "Maven.CoffeShopApplication [spring-boot:run].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.CoffeShopApplication.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/prata/OneDrive/Desktop/CoffeeShopApplication",
@@ -138,45 +139,14 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
     "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "C:\\Users\\prata\\OneDrive\\Desktop\\CoffeeShopApplication\\Frontend\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
-  },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
-    ]
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\HP\Desktop\Hackathon\CoffeShopApplication\Backend" />
-      <recent name="C:\Users\HP\Desktop\Hackathon\CoffeShopApplication\Frontend\src\components" />
-    </key>
-  </component>
-  <component name="RunAnythingCache">
-    <option name="myCommands">
-      <command value="mvn spring-boot:run" />
-      <command value="mvn clean" />
-    </option>
-  </component>
   <component name="RunManager">
     <configuration name="CoffeShopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="CoffeShopApplication" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.CoffeShopApplication.CoffeShopApplication" />
-      <extension name="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
-        </ENTRIES>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -192,47 +162,16 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2dc81685-684a-404a-a75a-f25803d61376" name="Changes" comment="" />
-      <created>1770437941830</created>
+      <changelist id="628c0801-06c7-4fef-b7c3-cc896bc66af6" name="Changes" comment="" />
+      <created>1782751836847</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1770437941830</updated>
-      <workItem from="1770437942922" duration="11911000" />
-      <workItem from="1770450148638" duration="9320000" />
-      <workItem from="1770463741346" duration="820000" />
-      <workItem from="1774620043511" duration="1024000" />
-      <workItem from="1774638870865" duration="333000" />
-      <workItem from="1781240755992" duration="287000" />
-      <workItem from="1781704826460" duration="5000" />
-      <workItem from="1782045720296" duration="46000" />
-      <workItem from="1782642410600" duration="1308000" />
-      <workItem from="1782740738113" duration="1111000" />
+      <updated>1782751836847</updated>
+      <workItem from="1782751839005" duration="859000" />
     </task>
-    <task id="LOCAL-00001" summary="Created Docker images.">
-      <option name="closed" value="true" />
-      <created>1782741712149</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1782741712149</updated>
-    </task>
-    <task id="LOCAL-00002" summary="added security">
-      <option name="closed" value="true" />
-      <created>1782741766079</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1782741766079</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created Docker images." />
-    <MESSAGE value="added security" />
-    <option name="LAST_COMMIT_MESSAGE" value="added security" />
   </component>
 </project>
