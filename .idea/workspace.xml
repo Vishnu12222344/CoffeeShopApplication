@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="628c0801-06c7-4fef-b7c3-cc896bc66af6" name="Changes" comment="Deployment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/com/CoffeShopApplication/Config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/CoffeShopApplication/Config/SecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,18 +15,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Vishnu12222344"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Vishnu12222344&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Vishnu12222344/CoffeeShopApplication.git",
-    "accountId": "53950f10-cb33-4ccc-a756-9a656b7077a1"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Vishnu12222344/CoffeeShopApplication.git&quot;,
+    &quot;accountId&quot;: &quot;53950f10-cb33-4ccc-a756-9a656b7077a1&quot;
   }
-}]]></component>
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -37,100 +36,100 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0017360208616535" />
-      <entry key="MS500" value="1.2804858701326212" />
-      <entry key="S2" value="1.7277425144528946" />
-      <entry key="S5" value="1.880640861271245" />
-      <entry key="S10" value="1.9452590897479864" />
-      <entry key="S30" value="2.3737359484803093" />
-      <entry key="S60" value="3.077556921953924" />
-      <entry key="M2" value="3.8014214334603333" />
-      <entry key="M5" value="4.447092970435477" />
-      <entry key="M10" value="4.709590392394251" />
-      <entry key="M15" value="4.803151270426846" />
-      <entry key="M30" value="4.899917722890394" />
-      <entry key="H1" value="4.94953734608947" />
-      <entry key="H2" value="4.974662401475628" />
-      <entry key="H4" value="4.987304520426941" />
-      <entry key="D1" value="4.997880371558679" />
-      <entry key="W1" value="4.999697104827786" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000001757028132" />
+      <entry key="S5" value="1.007547298833978" />
+      <entry key="S10" value="1.2868164522037135" />
+      <entry key="S30" value="4.409505625457595" />
+      <entry key="S60" value="7.384177085499257" />
+      <entry key="M2" value="9.74840754296706" />
+      <entry key="M5" value="11.574794000782003" />
+      <entry key="M10" value="12.336954316919277" />
+      <entry key="M15" value="12.80242069973096" />
+      <entry key="M30" value="13.970425792361654" />
+      <entry key="H1" value="15.344778738367367" />
+      <entry key="H2" value="16.451600832751048" />
+      <entry key="H4" value="17.16047916042569" />
+      <entry key="D1" value="17.849994831413326" />
+      <entry key="W1" value="17.978309323888208" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.1561884583412973E-259" />
-      <entry key="MS500" value="1.6315700551601848E-52" />
-      <entry key="S2" value="1.1301899249861606E-13" />
-      <entry key="S5" value="6.626139465791425E-6" />
-      <entry key="S10" value="0.0025741288751326002" />
-      <entry key="S30" value="0.13704929982049047" />
-      <entry key="S60" value="0.37033811283768275" />
-      <entry key="M2" value="0.6201226085527682" />
-      <entry key="M5" value="0.9884116948189172" />
-      <entry key="M10" value="1.3160770369689945" />
-      <entry key="M15" value="1.488394954975675" />
-      <entry key="M30" value="1.7107193654942927" />
-      <entry key="H1" value="1.8457232942169195" />
-      <entry key="H2" value="1.920272920935815" />
-      <entry key="H4" value="1.9594653434211495" />
-      <entry key="D1" value="1.9931489086913978" />
-      <entry key="W1" value="1.9990189104722562" />
+      <entry key="MS100" value="1.2688842022229728E-173" />
+      <entry key="MS500" value="2.634416259015501E-35" />
+      <entry key="S2" value="2.2655366880105106E-9" />
+      <entry key="S5" value="3.48392213310029E-4" />
+      <entry key="S10" value="0.01866526756599083" />
+      <entry key="S30" value="0.26526385285889903" />
+      <entry key="S60" value="0.5150377198408862" />
+      <entry key="M2" value="0.7176612854474687" />
+      <entry key="M5" value="0.8759617375623996" />
+      <entry key="M10" value="0.9561646004709625" />
+      <entry key="M15" value="1.0491473552892157" />
+      <entry key="M30" value="1.4044077063345728" />
+      <entry key="H1" value="1.9103546876232345" />
+      <entry key="H2" value="2.35121317643304" />
+      <entry key="H4" value="2.644272454968116" />
+      <entry key="D1" value="2.935815102299629" />
+      <entry key="W1" value="2.9907029788029087" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.915462481322034" />
-      <entry key="MS500" value="1.259147682229623" />
-      <entry key="S2" value="1.720980781587976" />
-      <entry key="S5" value="1.8777478514264407" />
-      <entry key="S10" value="1.9461345117331401" />
-      <entry key="S30" value="2.50636029394412" />
-      <entry key="S60" value="3.4422933992864118" />
-      <entry key="M2" value="4.416901665747986" />
-      <entry key="M5" value="5.432481534933218" />
-      <entry key="M10" value="6.02360845942441" />
-      <entry key="M15" value="6.2899789196534535" />
-      <entry key="M30" value="6.609727115439043" />
-      <entry key="H1" value="6.794767157186744" />
-      <entry key="H2" value="6.894677933889064" />
-      <entry key="H4" value="6.946638368665499" />
-      <entry key="D1" value="6.991006962990357" />
-      <entry key="W1" value="6.998712817124607" />
+      <entry key="MS100" value="0.9395227492140118" />
+      <entry key="MS500" value="0.9876008614453725" />
+      <entry key="S2" value="0.996885869805719" />
+      <entry key="S5" value="1.0065079992347703" />
+      <entry key="S10" value="1.3015310865958218" />
+      <entry key="S30" value="4.659494988433119" />
+      <entry key="S60" value="7.884588301598471" />
+      <entry key="M2" value="10.45592930878617" />
+      <entry key="M5" value="12.445818536814299" />
+      <entry key="M10" value="13.290451562941508" />
+      <entry key="M15" value="13.849674903755252" />
+      <entry key="M30" value="15.37368898188302" />
+      <entry key="H1" value="17.25442315932902" />
+      <entry key="H2" value="18.802398920856014" />
+      <entry key="H4" value="19.80452414953281" />
+      <entry key="D1" value="20.78576871926391" />
+      <entry key="W1" value="20.969006326053723" />
     </decayedShown>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="3Foqao3Doi6MIv133IXTv30WdC9" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "Spring Boot.CoffeShopApplication.executor": "Run",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/prata/OneDrive/Desktop/CoffeeShopApplication",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2026.1.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.CoffeShopApplication.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/prata/OneDrive/Desktop/CoffeeShopApplication&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\prata\\OneDrive\\Desktop\\CoffeeShopApplication\\Frontend\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\prata\OneDrive\Desktop\CoffeeShopApplication" />
@@ -164,7 +163,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1782751836847</updated>
-      <workItem from="1782751839005" duration="4223000" />
+      <workItem from="1782751839005" duration="4893000" />
+      <workItem from="1782757487623" duration="384000" />
+      <workItem from="1782839153906" duration="1211000" />
     </task>
     <task id="LOCAL-00001" summary="Deployment">
       <option name="closed" value="true" />
@@ -206,7 +207,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782755223172</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Deployment">
+      <option name="closed" value="true" />
+      <created>1782756497663</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1782756497663</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
